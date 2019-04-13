@@ -7,8 +7,8 @@ This library generates easy to remember (one time) 8 character long passwords. I
   - Toast bread
 
 ### Demo
-[Here](https://radiant-shard-237505.appspot.com/)
-[Demo Code](https://github.com/sn123/passwordgen-demo)
+* [Here](https://radiant-shard-237505.appspot.com/)
+* [Demo Code](https://github.com/sn123/passwordgen-demo)
 
 ### Sample Passwords Generated
 
