@@ -6,6 +6,9 @@ This library generates easy to remember (one time) 8 character long passwords. I
   - Generate cryptographically strong random passwords
   - Toast bread
 
+### Demo
+<http://www.example.com>
+
 ### Sample Passwords Generated
 
 ```
