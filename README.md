@@ -2,6 +2,10 @@
 
 This library generates easy to remember (one time) 8 character long passwords. It does so by making up passwords with a mix of consonants and vowels pair and then appending random digits in the end.
 
+The password gen has few options that can be passed to it:
+* LeetMode - replaces the first vowel with its 1337 equivalent
+* AppendSymbol - adds a symbol in the end (making the generated password 9 chars long)
+
 ## What it doesn't do
   - Generate cryptographically strong random passwords
   - Toast bread
@@ -13,14 +17,12 @@ This library generates easy to remember (one time) 8 character long passwords. I
 ### Sample Passwords Generated
 
 ```
-kimo1270
-gima6384
-bowa1861
-bepo6623
-sadi5777
-yata5342
-reye2346
-jivi0682
+j3doco67$
+f3lole11$
+x1rayi18#
+f0qese46@
+bepeha05
+xirayi18#
 ```
 
 ### Usage
@@ -32,8 +34,10 @@ import "./passwordgen"
 
 func main() {
 	num := 0
+	request := new(passwordgen.GenerateRequest)
+	request.LeetMode = true
 	for num < 8 {
-		fmt.Println(passwordgen.Generate())
+		fmt.Println(passwordgen.Generate(*request))
 		num++
 	}
 }
@@ -41,7 +45,6 @@ func main() {
 ### TODO
 * Add better unit tests
 * Support for stop words
-* Make it configurable
 
 ### License
 MIT
