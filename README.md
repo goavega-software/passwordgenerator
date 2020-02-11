@@ -11,7 +11,7 @@ The password gen has few options that can be passed to it:
   - Toast bread
 
 ### Demo
-* [Here](https://radiant-shard-237505.appspot.com/)
+* [Here](https://shh.goave.ga/)
 * [Demo Code](https://github.com/sn123/passwordgen-demo)
 
 ### Sample Passwords Generated
